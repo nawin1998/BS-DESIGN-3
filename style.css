@@ -1,0 +1,18 @@
+.inner{
+    overflow: hidden;
+}
+.inner.img{
+    transition: all 3s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+.outer{
+    overflow: hidden;
+}
+.outer.img{
+    transition: all 3s ease;
+}
+.outer:hover img{
+    transform: scale(1.1);
+}
